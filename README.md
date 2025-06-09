@@ -2,7 +2,7 @@
 
 ## Phase 1: Reading files
 
-- [] Read `.kicad_sch` files
+- [x] Read `.kicad_sch` files
 - [] Parse `.kicad_sch` S-Expression Tree
 - [] Extract components from the Tree
 - [] Print the components list
