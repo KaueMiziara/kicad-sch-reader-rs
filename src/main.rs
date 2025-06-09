@@ -18,8 +18,10 @@ fn main() {
         return;
     }
 
-    let _content = match std::fs::read_to_string(&file_path) {
+    let content = match std::fs::read_to_string(&file_path) {
         Ok(file) => file,
         Err(_) => panic!("Unable to read file {file_path}"),
     };
+
+    utils::parse_sexp(&content);
 }

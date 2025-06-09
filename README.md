@@ -3,9 +3,9 @@
 ## Step 1: Reading files
 
 - [x] Read `.kicad_sch` files
-- [ ] Parse `.kicad_sch` S-Expression Tree
-- [ ] Extract components from the Tree
-- [ ] Print the components list
+- [x] Parse `.kicad_sch` S-Expression Tree
+- [x] Extract components from the Tree
+- [x] Print the components list
 
 ## Step 2: Writing files
 
